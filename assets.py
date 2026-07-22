@@ -1,5 +1,6 @@
 import sys
 from PySide6.QtWidgets import QApplication, QMainWindow, QPushButton, QVBoxLayout, QHBoxLayout, QWidget, QComboBox, QRadioButton
+from functionalities import Apply_all
 
 def button_action(data):
     print("It works", data)
@@ -49,12 +50,14 @@ def right_side():
 
     preview_but = QPushButton('Preview')
 
-    Apply_on_arrow = QPushButton('Apply on arrow')
-    Apply_all = QPushButton('Apply all')
+    Apply_on_arrow_but = QPushButton('Apply on arrow')
+    Apply_all_but = QPushButton('Apply all')
+    Apply_all_but.clicked.connect(lambda: print("The settings where applied to all cur"))
+    Apply_on_arrow_but.clicked.connect(lambda: print("It has only been applied to arrow"))
 
 
-    in_inner_layout.addWidget(Apply_on_arrow)
-    in_inner_layout.addWidget(Apply_all)
+    in_inner_layout.addWidget(Apply_on_arrow_but)
+    in_inner_layout.addWidget(Apply_all_but)
     inner_layout.addWidget(preview_but)
     inner_layout.addWidget(in_inner_container)
 
