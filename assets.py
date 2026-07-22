@@ -1,5 +1,5 @@
 import sys
-from PySide6.QtWidgets import QApplication, QMainWindow, QPushButton, QVBoxLayout, QWidget
+from PySide6.QtWidgets import QApplication, QMainWindow, QPushButton, QVBoxLayout, QHBoxLayout, QWidget, QComboBox, QRadioButton
 
 def button_action(data):
     print("It works", data)
@@ -28,5 +28,34 @@ def left_side():
 
     inner_layout.addWidget(Home_button)
     inner_layout.addWidget(Settings_button)
+
+    return inner_container
+
+def center():
+    inner_container = QWidget()
+    inner_layout = QVBoxLayout(inner_container)
+
+    for i in range(10):
+        inner_layout.addWidget(QRadioButton(str(i)))
+
+    return inner_container
+
+def right_side():
+    inner_container = QWidget()
+    inner_layout = QVBoxLayout(inner_container)
+
+    in_inner_container = QWidget()
+    in_inner_layout = QHBoxLayout(in_inner_container)
+
+    preview_but = QPushButton('Preview')
+
+    Apply_on_arrow = QPushButton('Apply on arrow')
+    Apply_all = QPushButton('Apply all')
+
+
+    in_inner_layout.addWidget(Apply_on_arrow)
+    in_inner_layout.addWidget(Apply_all)
+    inner_layout.addWidget(preview_but)
+    inner_layout.addWidget(in_inner_container)
 
     return inner_container

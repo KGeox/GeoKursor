@@ -3,7 +3,7 @@ import sys
 from PySide6.QtWidgets import QApplication, QMainWindow, QLabel, QWidget, QVBoxLayout, QPushButton, QGridLayout
 from PySide6.QtGui import QIcon
 from PySide6.QtCore import Qt
-from assets import ButtonHolder, left_side
+from assets import ButtonHolder, left_side, center,right_side
 
 class MainWindow(QMainWindow):
     def __init__(self):
@@ -18,8 +18,8 @@ class MainWindow(QMainWindow):
         layout = QGridLayout()
 
         layout.addWidget(left_side(), 0, 0)
-        layout.addWidget(left_side(),0, 1)
-        layout.addWidget(left_side(), 0, 2)
+        layout.addWidget(center(),0, 1)
+        layout.addWidget(right_side(), 0, 2)
 
         container.setLayout(layout)
 
