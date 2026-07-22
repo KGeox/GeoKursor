@@ -3,7 +3,7 @@ import sys
 from PySide6.QtWidgets import QApplication, QMainWindow, QLabel, QWidget, QVBoxLayout, QPushButton, QGridLayout
 from PySide6.QtGui import QIcon
 from PySide6.QtCore import Qt
-from assets import ButtonHolder, left_side, center,right_side
+from assets import ButtonHolder, left_side, center,right_side, menu_bar
 
 class MainWindow(QMainWindow):
     def __init__(self):
@@ -11,6 +11,8 @@ class MainWindow(QMainWindow):
 
         self.setWindowTitle('GeoKursor')
         self.resize(900, 600)
+
+        self.setMenuBar(menu_bar(self))
 
         container = QWidget()
         self.setCentralWidget(container)

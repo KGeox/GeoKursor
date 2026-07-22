@@ -1,5 +1,5 @@
 import sys
-from PySide6.QtWidgets import QApplication, QMainWindow, QPushButton, QVBoxLayout, QHBoxLayout, QWidget, QComboBox, QRadioButton
+from PySide6.QtWidgets import QApplication, QMainWindow, QPushButton, QVBoxLayout, QHBoxLayout, QWidget, QListWidget, QComboBox, QRadioButton
 from functionalities import Apply_all
 
 def button_action(data):
@@ -15,6 +15,22 @@ class ButtonHolder(QMainWindow):
         self.setCentralWidget(button)
 
         button.clicked.connect(button_action)
+
+
+def menu_bar(window_instance):
+
+    menubar = window_instance.menuBar()
+
+    fileMenu = menubar.addMenu('file')
+    editMenu = menubar.addMenu('edit')
+    helpMenu =menubar.addMenu('help')
+
+    submenu = fileMenu.addMenu('submenu')
+    exitAction = submenu.addAction('Exit')
+
+    exitAction.triggered.connect(QApplication.instance().quit)
+
+    return menubar
 
 
 def left_side():
@@ -36,8 +52,9 @@ def center():
     inner_container = QWidget()
     inner_layout = QVBoxLayout(inner_container)
 
-    for i in range(10):
-        inner_layout.addWidget(QRadioButton(str(i)))
+    listwidget = QListWidget()
+    listwidget.addItems(['One', 'Two', 'Three'])
+    inner_layout.addWidget(listwidget)
 
     return inner_container
 
