@@ -17,8 +17,6 @@ class ButtonHolder(QMainWindow):
         button.clicked.connect(button_action)
 
 
-
-
 def menu_bar(window_instance):
 
     menubar = window_instance.menuBar()
