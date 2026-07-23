@@ -27,8 +27,16 @@ def menu_bar(window_instance):
 
     submenu = fileMenu.addMenu('submenu')
     exitAction = submenu.addAction('Exit')
-
     exitAction.triggered.connect(QApplication.instance().quit)
+
+    background_menu = editMenu.addMenu('background Color')
+    darkth_switch = background_menu.addAction('dark theme')
+    lightth_switch = background_menu.addAction('light theme')
+    systemth_switch = background_menu.addAction('System theme')
+
+    git_repo = helpMenu.addAction('Access it repo')
+
+
 
     return menubar
 

@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bebab8df-30f3-4a76-b50e-d5c80c234cad" name="Changes" comment="adding central and right side layout">
+    <list default="true" id="bebab8df-30f3-4a76-b50e-d5c80c234cad" name="Changes" comment="starting the menu bar">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GeoKursor/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets.py" beforeDir="false" afterPath="$PROJECT_DIR$/assets.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +23,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;KGeox&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/KGeox/GeoKursor.git&quot;,
+    &quot;accountId&quot;: &quot;a209b679-9701-4be9-a298-a5738d1eeec9&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5,
   &quot;fromUser&quot;: false
@@ -39,9 +55,16 @@
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "master"
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/HP/PycharmProjects/GeoKursor",
+    "nodejs_package_manager_path": "npm"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\HP\PycharmProjects\GeoKursor" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -81,7 +104,31 @@
       <option name="project" value="LOCAL" />
       <updated>1784728668543</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="adding central and right side layout">
+      <option name="closed" value="true" />
+      <created>1784729054245</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1784729054245</updated>
+    </task>
+    <task id="LOCAL-00005" summary="adding button basic functions">
+      <option name="closed" value="true" />
+      <created>1784730813797</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1784730813797</updated>
+    </task>
+    <task id="LOCAL-00006" summary="starting the menu bar">
+      <option name="closed" value="true" />
+      <created>1784754269945</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1784754269946</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -129,6 +176,8 @@
     <MESSAGE value="creating the base of my app" />
     <MESSAGE value="starting to create the global layout" />
     <MESSAGE value="adding central and right side layout" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding central and right side layout" />
+    <MESSAGE value="adding button basic functions" />
+    <MESSAGE value="starting the menu bar" />
+    <option name="LAST_COMMIT_MESSAGE" value="starting the menu bar" />
   </component>
 </project>
