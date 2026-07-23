@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bebab8df-30f3-4a76-b50e-d5c80c234cad" name="Changes" comment="starting the menu bar">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GeoKursor/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets.py" beforeDir="false" afterPath="$PROJECT_DIR$/assets.py" afterDir="false" />
-    </list>
+    <list default="true" id="bebab8df-30f3-4a76-b50e-d5c80c234cad" name="Changes" comment="making the project more structured" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -131,7 +125,55 @@
       <option name="project" value="LOCAL" />
       <updated>1784754269946</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="starting the menu bar">
+      <option name="closed" value="true" />
+      <created>1784839670459</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1784839670460</updated>
+    </task>
+    <task id="LOCAL-00008" summary="starting the menu bar">
+      <option name="closed" value="true" />
+      <created>1784839703702</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1784839703702</updated>
+    </task>
+    <task id="LOCAL-00009" summary="starting the menu bar">
+      <option name="closed" value="true" />
+      <created>1784839842165</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1784839842165</updated>
+    </task>
+    <task id="LOCAL-00010" summary="making the project more structured">
+      <option name="closed" value="true" />
+      <created>1784839928089</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1784839928089</updated>
+    </task>
+    <task id="LOCAL-00011" summary="making the project more structured">
+      <option name="closed" value="true" />
+      <created>1784840160273</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1784840160273</updated>
+    </task>
+    <task id="LOCAL-00012" summary="making the project more structured">
+      <option name="closed" value="true" />
+      <created>1784840177042</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1784840177042</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -181,6 +223,7 @@
     <MESSAGE value="adding central and right side layout" />
     <MESSAGE value="adding button basic functions" />
     <MESSAGE value="starting the menu bar" />
-    <option name="LAST_COMMIT_MESSAGE" value="starting the menu bar" />
+    <MESSAGE value="making the project more structured" />
+    <option name="LAST_COMMIT_MESSAGE" value="making the project more structured" />
   </component>
 </project>
