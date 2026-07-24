@@ -1,15 +1,17 @@
 from PySide6.QtWidgets import QWidget, QVBoxLayout, QHBoxLayout, QPushButton, QListWidget
 from core.cursor_loader import load_theme
-class right(QWidget):
-    def __init__(self):
-        super().__init__()
+from .central import central
 
+class right(QWidget):
+    def __init__(self, central_instance):
+        super().__init__()
+        self.central = central_instance
         self.inner_layout = QVBoxLayout(self)
 
         self.in_inner_container = QWidget()
         self.in_inner_layout = QHBoxLayout(self.in_inner_container)
 
-        # self.theme = QListWidget().addItems(load_theme())
+        self.theme_list = QListWidget()
         self.preview_but = QPushButton('Preview')
 
         self.Apply_on_arrow_but = QPushButton('Apply on arrow')
@@ -19,6 +21,14 @@ class right(QWidget):
 
         self.in_inner_layout.addWidget(self.Apply_on_arrow_but)
         self.in_inner_layout.addWidget(self.Apply_all_but)
-        # self.inner_layout.addWidget(self.theme)
+        self.inner_layout.addWidget(self.theme_list)
         self.inner_layout.addWidget(self.preview_but)
         self.inner_layout.addWidget(self.in_inner_container)
+
+        self.central.list_widget.itemClicked.connect(self.update_view)
+
+    def update_view(self, item):
+        theme_name = item.text()
+        self.theme_list.clear()
+        files = load_theme(theme_name)
+        self.theme_list.addItems(files)

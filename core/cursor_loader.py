@@ -12,4 +12,5 @@ def load_theme(name):
     base_dir = Path(__file__).parent.parent / 'data' / 'cursorpacks' / name
 
     themes = [cur.name for cur in base_dir.iterdir() if cur.is_file()]
+    print(themes)
     return themes

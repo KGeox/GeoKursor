@@ -14,7 +14,7 @@ class MainWindow(QMainWindow):
 
         self.left_side = left()
         self.central = central()
-        self.right_side = right()
+        self.right_side = right(self.central)
 
         self.setWindowTitle('GeoKursor')
         self.resize(900, 600)

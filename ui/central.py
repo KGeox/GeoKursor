@@ -9,5 +9,13 @@ class central(QWidget):
         self.list_widget = QListWidget()
         self.list_widget.addItems(load_cursor_themes())
 
+        self.list_widget.itemClicked.connect(self.give_name)
+
+
         self.inner_layout.addWidget(self.list_widget)
 
+    def give_name(self, item):
+        return item.text()
+
+        # selected_indexes = self.list_widget.selecteIndexes()
+        # return selected_indexes

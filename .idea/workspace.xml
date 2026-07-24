@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bebab8df-30f3-4a76-b50e-d5c80c234cad" name="Changes" comment="adding cursors and making the cursor folders-name to be returned on the app">
+    <list default="true" id="bebab8df-30f3-4a76-b50e-d5c80c234cad" name="Changes" comment="adding theme loader fuction aimed at rendering the themes(name) for now">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/cursor_loader.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/cursor_loader.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/central.py" beforeDir="false" afterPath="$PROJECT_DIR$/ui/central.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ui/right.py" beforeDir="false" afterPath="$PROJECT_DIR$/ui/right.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -202,7 +204,15 @@
       <option name="project" value="LOCAL" />
       <updated>1784902214441</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="adding theme loader fuction aimed at rendering the themes(name) for now">
+      <option name="closed" value="true" />
+      <created>1784902923492</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1784902923492</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -254,6 +264,7 @@
     <MESSAGE value="starting the menu bar" />
     <MESSAGE value="making the project more structured" />
     <MESSAGE value="adding cursors and making the cursor folders-name to be returned on the app" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding cursors and making the cursor folders-name to be returned on the app" />
+    <MESSAGE value="adding theme loader fuction aimed at rendering the themes(name) for now" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding theme loader fuction aimed at rendering the themes(name) for now" />
   </component>
 </project>
