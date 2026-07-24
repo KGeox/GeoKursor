@@ -1,7 +1,74 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bebab8df-30f3-4a76-b50e-d5c80c234cad" name="Changes" comment="making the project more structured" />
+    <list default="true" id="bebab8df-30f3-4a76-b50e-d5c80c234cad" name="Changes" comment="making the project more structured">
+      <change afterPath="$PROJECT_DIR$/core/cursor_loader.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/cursorpacks/Hollow Knight/Alternate.cur" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/cursorpacks/Hollow Knight/Arrow.cur" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/cursorpacks/Hollow Knight/Diagonal1.cur" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/cursorpacks/Hollow Knight/Diagonal2.cur" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/cursorpacks/Hollow Knight/HK_Busy.ani" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/cursorpacks/Hollow Knight/Handwriting.cur" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/cursorpacks/Hollow Knight/Help.cur" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/cursorpacks/Hollow Knight/Horizontal.cur" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/cursorpacks/Hollow Knight/Link.cur" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/cursorpacks/Hollow Knight/Location.cur" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/cursorpacks/Hollow Knight/Move.cur" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/cursorpacks/Hollow Knight/Person.cur" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/cursorpacks/Hollow Knight/Precision.cur" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/cursorpacks/Hollow Knight/Text.cur" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/cursorpacks/Hollow Knight/Unavailable.cur" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/cursorpacks/Hollow Knight/Vertical.cur" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/cursorpacks/Hollow Knight/Waiting.ani" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/cursorpacks/Hollow Knight/hollow-knight-1.crs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/cursorpacks/Hollow Knight/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/cursorpacks/madaramangekyou/AppStarting.ani" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/cursorpacks/madaramangekyou/AppStarting_32.ani" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/cursorpacks/madaramangekyou/AppStarting_48.ani" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/cursorpacks/madaramangekyou/AppStarting_64.ani" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/cursorpacks/madaramangekyou/Arrow.ani" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/cursorpacks/madaramangekyou/Arrow_32.ani" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/cursorpacks/madaramangekyou/Arrow_48.ani" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/cursorpacks/madaramangekyou/Arrow_64.ani" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/cursorpacks/madaramangekyou/Button.ani" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/cursorpacks/madaramangekyou/Button_32.ani" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/cursorpacks/madaramangekyou/Button_48.ani" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/cursorpacks/madaramangekyou/Button_64.ani" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/cursorpacks/madaramangekyou/Cross.ani" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/cursorpacks/madaramangekyou/Hand.ani" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/cursorpacks/madaramangekyou/Hand_32.ani" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/cursorpacks/madaramangekyou/Hand_48.ani" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/cursorpacks/madaramangekyou/Hand_64.ani" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/cursorpacks/madaramangekyou/Handwriting.cur" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/cursorpacks/madaramangekyou/Help.cur" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/cursorpacks/madaramangekyou/No.ani" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/cursorpacks/madaramangekyou/SizeAll.ani" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/cursorpacks/madaramangekyou/SizeNESW.ani" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/cursorpacks/madaramangekyou/SizeNS.ani" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/cursorpacks/madaramangekyou/SizeNWSE.ani" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/cursorpacks/madaramangekyou/SizeNWSE_32.ani" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/cursorpacks/madaramangekyou/SizeNWSE_48.ani" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/cursorpacks/madaramangekyou/SizeNWSE_64.ani" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/cursorpacks/madaramangekyou/SizeNWSE_96.ani" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/cursorpacks/madaramangekyou/SizeWE.ani" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/cursorpacks/madaramangekyou/UpArrow.ani" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/cursorpacks/madaramangekyou/UpArrow_32.ani" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/cursorpacks/madaramangekyou/UpArrow_48.ani" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/cursorpacks/madaramangekyou/UpArrow_64.ani" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/cursorpacks/madaramangekyou/Wait.ani" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/cursorpacks/madaramangekyou/Wait_32.ani" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/cursorpacks/madaramangekyou/Wait_48.ani" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/cursorpacks/madaramangekyou/Wait_64.ani" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/cursorpacks/madaramangekyou/install.inf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/cursorpacks/madaramangekyou/readme.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets.py" beforeDir="false" afterPath="$PROJECT_DIR$/assets.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/central.py" beforeDir="false" afterPath="$PROJECT_DIR$/ui/central.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/left.py" beforeDir="false" afterPath="$PROJECT_DIR$/ui/left.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/right.py" beforeDir="false" afterPath="$PROJECT_DIR$/ui/right.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,14 +85,11 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;KGeox&quot;
-  }
+  &quot;lastFilter&quot;: {}
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/KGeox/GeoKursor.git&quot;,
+    &quot;url&quot;: &quot;https://github.com/KGeox/GeoKursor&quot;,
     &quot;accountId&quot;: &quot;a209b679-9701-4be9-a298-a5738d1eeec9&quot;
   }
 }</component>
@@ -42,6 +106,7 @@
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python.assets.executor": "Run",
+    "Python.cursor_loader.executor": "Run",
     "Python.main.executor": "Run",
     "Python.test.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -50,15 +115,18 @@
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/HP/PycharmProjects/GeoKursor",
+    "last_opened_file_path": "C:/Users/HP/PycharmProjects/GeoKursor/data/cursorpacks/anime/madaramangekyou",
     "nodejs_package_manager_path": "npm"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\HP\PycharmProjects\GeoKursor\data\cursorpacks\anime\madaramangekyou" />
+      <recent name="C:\Users\HP\PycharmProjects\GeoKursor\data\cursorpacks\Gaming\Hollow Knight" />
       <recent name="C:\Users\HP\PycharmProjects\GeoKursor" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\HP\PycharmProjects\GeoKursor\data\cursorpacks" />
       <recent name="C:\Users\HP\PycharmProjects\GeoKursor" />
     </key>
   </component>
@@ -173,7 +241,23 @@
       <option name="project" value="LOCAL" />
       <updated>1784840177042</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="making the project more structured">
+      <option name="closed" value="true" />
+      <created>1784840291444</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1784840291444</updated>
+    </task>
+    <task id="LOCAL-00014" summary="making the project more structured">
+      <option name="closed" value="true" />
+      <created>1784840417560</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1784840417560</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

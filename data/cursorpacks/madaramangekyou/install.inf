@@ -1,0 +1,42 @@
+[Version]
+signature="$CHICAGO$"
+
+[DefaultInstall]
+CopyFiles = Scheme.Cur
+AddReg = Scheme.Reg
+
+[DestinationDirs]
+Scheme.Cur = 25,Cursors
+
+[Scheme.Cur]
+Help.cur
+Cross.ani
+Handwriting.cur
+No.ani
+SizeNS.ani
+AppStarting.ani
+Wait.ani
+SizeWE.ani
+SizeNWSE.ani
+SizeNESW.ani
+UpArrow.ani
+SizeAll.ani
+Hand.ani
+
+[Scheme.Reg]
+HKCU,"Control Panel\Cursors","Help",,"%25%\Cursors\Help.cur"
+HKCU,"Control Panel\Cursors","Cross",,"%25%\Cursors\Cross.ani"
+HKCU,"Control Panel\Cursors","Arrow",,"%25%\Cursors\Handwriting.cur"
+HKCU,"Control Panel\Cursors","No",,"%25%\Cursors\No.ani"
+HKCU,"Control Panel\Cursors","SizeNS",,"%25%\Cursors\SizeNS.ani"
+HKCU,"Control Panel\Cursors","AppStarting",,"%25%\Cursors\AppStarting.ani"
+HKCU,"Control Panel\Cursors","Wait",,"%25%\Cursors\Wait.ani"
+HKCU,"Control Panel\Cursors","SizeWE",,"%25%\Cursors\SizeWE.ani"
+HKCU,"Control Panel\Cursors","SizeNWSE",,"%25%\Cursors\SizeNWSE.ani"
+HKCU,"Control Panel\Cursors","SizeNESW",,"%25%\Cursors\SizeNESW.ani"
+HKCU,"Control Panel\Cursors","UpArrow",,"%25%\Cursors\UpArrow.ani"
+HKCU,"Control Panel\Cursors","SizeAll",,"%25%\Cursors\SizeAll.ani"
+HKCU,"Control Panel\Cursors","Hand",,"%25%\Cursors\Hand.ani"
+; Set scheme name
+HKCU,"Control Panel\Cursors","(Default)",,"Madara Mangekyou Sharingan Set"
+HKCU,"Control Panel\Cursors\Schemes","Madara Mangekyou Sharingan Set",,""
