@@ -1,5 +1,5 @@
-from PySide6.QtWidgets import QWidget, QVBoxLayout, QHBoxLayout, QPushButton
-
+from PySide6.QtWidgets import QWidget, QVBoxLayout, QHBoxLayout, QPushButton, QListWidget
+from core.cursor_loader import load_theme
 class right(QWidget):
     def __init__(self):
         super().__init__()
@@ -9,6 +9,7 @@ class right(QWidget):
         self.in_inner_container = QWidget()
         self.in_inner_layout = QHBoxLayout(self.in_inner_container)
 
+        # self.theme = QListWidget().addItems(load_theme())
         self.preview_but = QPushButton('Preview')
 
         self.Apply_on_arrow_but = QPushButton('Apply on arrow')
@@ -18,5 +19,6 @@ class right(QWidget):
 
         self.in_inner_layout.addWidget(self.Apply_on_arrow_but)
         self.in_inner_layout.addWidget(self.Apply_all_but)
+        # self.inner_layout.addWidget(self.theme)
         self.inner_layout.addWidget(self.preview_but)
         self.inner_layout.addWidget(self.in_inner_container)
