@@ -1,5 +1,5 @@
 from PySide6.QtWidgets import QWidget, QVBoxLayout, QListWidget
-from core.cursor_loader import load_cursor_themes
+from core.cursor_apply import load_cursor_themes
 class central(QWidget):
     def __init__(self):
         super().__init__()

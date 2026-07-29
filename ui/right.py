@@ -1,5 +1,5 @@
 from PySide6.QtWidgets import QWidget, QVBoxLayout, QHBoxLayout, QPushButton, QListWidget
-from core.cursor_loader import load_theme
+from core.cursor_apply import load_theme
 from .central import central
 
 class right(QWidget):

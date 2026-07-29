@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bebab8df-30f3-4a76-b50e-d5c80c234cad" name="Changes" comment="displaying cur images on the app">
-      <change afterPath="$PROJECT_DIR$/core/cursor previw.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/GeoKursor.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/GeoKursor.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/central.py" beforeDir="false" afterPath="$PROJECT_DIR$/ui/central.py" afterDir="false" />
-    </list>
+    <list default="true" id="bebab8df-30f3-4a76-b50e-d5c80c234cad" name="Changes" comment="removing left widget because it was pretty doing nothing" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -222,7 +215,23 @@
       <option name="project" value="LOCAL" />
       <updated>1784924828960</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="starting to make the cursor preview">
+      <option name="closed" value="true" />
+      <created>1785311254502</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1785311254503</updated>
+    </task>
+    <task id="LOCAL-00019" summary="removing left widget because it was pretty doing nothing">
+      <option name="closed" value="true" />
+      <created>1785311353255</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1785311353255</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -276,6 +285,8 @@
     <MESSAGE value="adding cursors and making the cursor folders-name to be returned on the app" />
     <MESSAGE value="adding theme loader fuction aimed at rendering the themes(name) for now" />
     <MESSAGE value="displaying cur images on the app" />
-    <option name="LAST_COMMIT_MESSAGE" value="displaying cur images on the app" />
+    <MESSAGE value="starting to make the cursor preview" />
+    <MESSAGE value="removing left widget because it was pretty doing nothing" />
+    <option name="LAST_COMMIT_MESSAGE" value="removing left widget because it was pretty doing nothing" />
   </component>
 </project>
