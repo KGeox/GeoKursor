@@ -16,6 +16,3 @@ class central(QWidget):
 
     def give_name(self, item):
         return item.text()
-
-        # selected_indexes = self.list_widget.selecteIndexes()
-        # return selected_indexes
