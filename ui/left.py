@@ -10,7 +10,8 @@ class left(QWidget):
         self.Home_button = QPushButton('Home')
         self.Home_button.setCheckable(True)
 
-#
+        self.Settings_button = QPushButton('Settings')
+        self.Settings_button.setCheckable(True)
 
         self.inner_layout.addWidget(self.Home_button)
         self.inner_layout.addWidget(self.Settings_button)

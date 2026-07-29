@@ -4,7 +4,7 @@ from PySide6.QtWidgets import QApplication, QMainWindow, QLabel, QWidget, QVBoxL
 from PySide6.QtGui import QIcon
 from PySide6.QtCore import Qt
 from assets import ButtonHolder, menu_bar
-from ui.left import left
+# from ui.left import left
 from ui.central import central
 from ui.right import right
 
@@ -12,7 +12,7 @@ class MainWindow(QMainWindow):
     def __init__(self):
         super().__init__()
 
-        self.left_side = left()
+        # self.left_side = left()
         self.central = central()
         self.right_side = right(self.central)
 
@@ -26,7 +26,7 @@ class MainWindow(QMainWindow):
 
         layout = QGridLayout()
 
-        layout.addWidget(self.left_side, 0, 0)
+        # layout.addWidget(self.left_side, 0, 0)
         layout.addWidget(self.central,0, 1)
         layout.addWidget(self.right_side, 0, 2)
 
