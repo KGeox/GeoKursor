@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bebab8df-30f3-4a76-b50e-d5c80c234cad" name="Changes" comment="making it to apply one arrow cursor from one of my customs">
+    <list default="true" id="bebab8df-30f3-4a76-b50e-d5c80c234cad" name="Changes" comment="fixing critical errors due to removal of load theme file">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/cursor_apply.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/cursor_apply.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ui/central.py" beforeDir="false" afterPath="$PROJECT_DIR$/ui/central.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ui/right.py" beforeDir="false" afterPath="$PROJECT_DIR$/ui/right.py" afterDir="false" />
     </list>
@@ -43,6 +45,7 @@
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python.assets.executor": "Run",
+    "Python.central.executor": "Run",
     "Python.cursor_apply.executor": "Run",
     "Python.cursor_loader.executor": "Run",
     "Python.left.executor": "Run",
@@ -252,7 +255,15 @@
       <option name="project" value="LOCAL" />
       <updated>1785313273728</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="fixing critical errors due to removal of load theme file">
+      <option name="closed" value="true" />
+      <created>1785313894780</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1785313894780</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -310,6 +321,7 @@
     <MESSAGE value="removing left widget because it was pretty doing nothing" />
     <MESSAGE value="changing my cursor load to cursor apply to finish the thing faster" />
     <MESSAGE value="making it to apply one arrow cursor from one of my customs" />
-    <option name="LAST_COMMIT_MESSAGE" value="making it to apply one arrow cursor from one of my customs" />
+    <MESSAGE value="fixing critical errors due to removal of load theme file" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixing critical errors due to removal of load theme file" />
   </component>
 </project>

@@ -1,5 +1,9 @@
 from PySide6.QtWidgets import QWidget, QVBoxLayout, QListWidget
-from core.cursor_apply import apply_cursor
+import os
+
+current_dir = os.path.dirname(os.path.abspath(__file__))
+packs_dir = os.path.join(current_dir,"../data/cursorpacks")
+
 class central(QWidget):
     def __init__(self):
         super().__init__()
@@ -7,7 +11,8 @@ class central(QWidget):
         self.inner_layout = QVBoxLayout(self)
 
         self.list_widget = QListWidget()
-        # self.list_widget.addItems(apply_cursor(r"C:\Users\HP\PycharmProjects\GeoKursor\data\cursorpacks\Hollow Knight\Arrow.cur"))
+
+        self.list_widget.addItems(os.listdir(packs_dir))
 
         self.list_widget.itemClicked.connect(self.give_name)
 
@@ -16,3 +21,4 @@ class central(QWidget):
 
     def give_name(self, item):
         return item.text()
+

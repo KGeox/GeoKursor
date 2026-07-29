@@ -6,4 +6,3 @@ def apply_cursor(path):
 
     ctypes.windll.user32.SetSystemCursor(new_cursor, Normal)
 
-# apply_cursor(r"C:\Users\HP\PycharmProjects\GeoKursor\data\cursorpacks\madaramangekyou\Arrow.ani")
