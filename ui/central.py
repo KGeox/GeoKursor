@@ -14,11 +14,9 @@ class central(QWidget):
 
         self.list_widget.addItems(os.listdir(packs_dir))
 
-        self.list_widget.itemClicked.connect(self.give_name)
+        # self.list_widget.itemClicked.connect(self.give_name)
 
 
         self.inner_layout.addWidget(self.list_widget)
 
-    def give_name(self, item):
-        return item.text()
 
