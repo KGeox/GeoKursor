@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bebab8df-30f3-4a76-b50e-d5c80c234cad" name="Changes" comment="displaying the cursor packs files">
+    <list default="true" id="bebab8df-30f3-4a76-b50e-d5c80c234cad" name="Changes" comment="making my selected cursors to be returned">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ui/central.py" beforeDir="false" afterPath="$PROJECT_DIR$/ui/central.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ui/right.py" beforeDir="false" afterPath="$PROJECT_DIR$/ui/right.py" afterDir="false" />
@@ -270,7 +270,15 @@
       <option name="project" value="LOCAL" />
       <updated>1785314763932</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="making my selected cursors to be returned">
+      <option name="closed" value="true" />
+      <created>1785325900377</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1785325900377</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -330,6 +338,7 @@
     <MESSAGE value="making it to apply one arrow cursor from one of my customs" />
     <MESSAGE value="fixing critical errors due to removal of load theme file" />
     <MESSAGE value="displaying the cursor packs files" />
-    <option name="LAST_COMMIT_MESSAGE" value="displaying the cursor packs files" />
+    <MESSAGE value="making my selected cursors to be returned" />
+    <option name="LAST_COMMIT_MESSAGE" value="making my selected cursors to be returned" />
   </component>
 </project>
