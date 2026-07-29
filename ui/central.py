@@ -1,5 +1,5 @@
 from PySide6.QtWidgets import QWidget, QVBoxLayout, QListWidget
-from core.cursor_apply import load_cursor_themes
+from core.cursor_apply import apply_cursor
 class central(QWidget):
     def __init__(self):
         super().__init__()
@@ -7,7 +7,7 @@ class central(QWidget):
         self.inner_layout = QVBoxLayout(self)
 
         self.list_widget = QListWidget()
-        self.list_widget.addItems(load_cursor_themes())
+        # self.list_widget.addItems(apply_cursor(r"C:\Users\HP\PycharmProjects\GeoKursor\data\cursorpacks\Hollow Knight\Arrow.cur"))
 
         self.list_widget.itemClicked.connect(self.give_name)
 

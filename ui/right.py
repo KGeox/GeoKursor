@@ -1,5 +1,5 @@
 from PySide6.QtWidgets import QWidget, QVBoxLayout, QHBoxLayout, QPushButton, QListWidget
-from core.cursor_apply import load_theme
+from core.cursor_apply import apply_cursor
 from .central import central
 
 class right(QWidget):
@@ -25,10 +25,10 @@ class right(QWidget):
         self.inner_layout.addWidget(self.preview_but)
         self.inner_layout.addWidget(self.in_inner_container)
 
-        self.central.list_widget.itemClicked.connect(self.update_view)
+        # self.central.list_widget.itemClicked.connect(self.update_view)
 
-    def update_view(self, item):
-        theme_name = item.text()
-        self.theme_list.clear()
-        files = load_theme(theme_name)
-        self.theme_list.addItems(files)
+    # def update_view(self, item):
+    #     theme_name = item.text()
+    #     self.theme_list.clear()
+    #     files = apply_cursor()
+    #     # self.theme_list.addItems(files)
