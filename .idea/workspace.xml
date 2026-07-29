@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bebab8df-30f3-4a76-b50e-d5c80c234cad" name="Changes" comment="removing left widget because it was pretty doing nothing" />
+    <list default="true" id="bebab8df-30f3-4a76-b50e-d5c80c234cad" name="Changes" comment="changing my cursor load to cursor apply to finish the thing faster">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cursor_apply.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/cursor_apply.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,6 +42,7 @@
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python.assets.executor": "Run",
+    "Python.cursor_apply.executor": "Run",
     "Python.cursor_loader.executor": "Run",
     "Python.left.executor": "Run",
     "Python.main.executor": "Run",
@@ -231,7 +235,15 @@
       <option name="project" value="LOCAL" />
       <updated>1785311353255</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="changing my cursor load to cursor apply to finish the thing faster">
+      <option name="closed" value="true" />
+      <created>1785311552151</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1785311552151</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -287,6 +299,7 @@
     <MESSAGE value="displaying cur images on the app" />
     <MESSAGE value="starting to make the cursor preview" />
     <MESSAGE value="removing left widget because it was pretty doing nothing" />
-    <option name="LAST_COMMIT_MESSAGE" value="removing left widget because it was pretty doing nothing" />
+    <MESSAGE value="changing my cursor load to cursor apply to finish the thing faster" />
+    <option name="LAST_COMMIT_MESSAGE" value="changing my cursor load to cursor apply to finish the thing faster" />
   </component>
 </project>
