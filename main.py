@@ -1,6 +1,7 @@
 import sys
 
-from PySide6.QtWidgets import QApplication, QMainWindow, QLabel, QWidget, QVBoxLayout, QPushButton, QGridLayout
+from PySide6.QtWidgets import QApplication, QMainWindow, QWidget, QGridLayout
+from PySide6.QtGui import QIcon
 
 from assets import  menu_bar
 
@@ -15,6 +16,7 @@ class MainWindow(QMainWindow):
         self.right_side = right(self.central)
 
         self.setWindowTitle('GeoKursor')
+        self.setWindowIcon(QIcon('grin-stars.png'))
         self.resize(900, 600)
 
         self.setMenuBar(menu_bar(self))
