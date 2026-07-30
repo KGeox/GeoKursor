@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bebab8df-30f3-4a76-b50e-d5c80c234cad" name="Changes" comment="making my selected cursors to be returned">
+    <list default="true" id="bebab8df-30f3-4a76-b50e-d5c80c234cad" name="Changes" comment="combining right and ccentral widget to fix display and commuication problems">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ui/central.py" beforeDir="false" afterPath="$PROJECT_DIR$/ui/central.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/right.py" beforeDir="false" afterPath="$PROJECT_DIR$/ui/right.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,27 +39,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python.assets.executor": "Run",
-    "Python.central.executor": "Run",
-    "Python.cursor_apply.executor": "Run",
-    "Python.cursor_loader.executor": "Run",
-    "Python.left.executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.right.executor": "Run",
-    "Python.test.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/HP/PycharmProjects/GeoKursor/data/cursorpacks/anime/madaramangekyou",
-    "nodejs_package_manager_path": "npm"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.assets.executor&quot;: &quot;Run&quot;,
+    &quot;Python.central.executor&quot;: &quot;Run&quot;,
+    &quot;Python.cursor_apply.executor&quot;: &quot;Run&quot;,
+    &quot;Python.cursor_loader.executor&quot;: &quot;Run&quot;,
+    &quot;Python.left.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.right.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/HP/PycharmProjects/GeoKursor/data/cursorpacks/anime/madaramangekyou&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\HP\PycharmProjects\GeoKursor\data\cursorpacks\anime\madaramangekyou" />
@@ -278,7 +278,15 @@
       <option name="project" value="LOCAL" />
       <updated>1785325900377</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="combining right and ccentral widget to fix display and commuication problems">
+      <option name="closed" value="true" />
+      <created>1785330555164</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1785330555164</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -339,6 +347,7 @@
     <MESSAGE value="fixing critical errors due to removal of load theme file" />
     <MESSAGE value="displaying the cursor packs files" />
     <MESSAGE value="making my selected cursors to be returned" />
-    <option name="LAST_COMMIT_MESSAGE" value="making my selected cursors to be returned" />
+    <MESSAGE value="combining right and ccentral widget to fix display and commuication problems" />
+    <option name="LAST_COMMIT_MESSAGE" value="combining right and ccentral widget to fix display and commuication problems" />
   </component>
 </project>
